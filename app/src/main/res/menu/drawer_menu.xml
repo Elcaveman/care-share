@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/nav_resultat"
+            android:icon="@drawable/ic_resultat"
+            android:title="Mes résultats" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="Informations pratiques" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/ic_notif"
+            android:title="Mes mémos visites"/>
+        <item
+            android:id="@+id/nav_calendrier"
+            android:icon="@drawable/ic_calendrier"
+            android:title="Ajouter un mémo visite"/>
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location"
+            android:title="Labos à proximité"/>
+
+        <item
+            android:id="@+id/nav_space"
+            android:title=""/>
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="Mon compte"/>
+        <item
+            android:id="@+id/nav_deconnexion"
+            android:icon="@drawable/ic_disconnect"
+            android:title="Déconnexion"/>
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add"
+            android:title="Ajouter prélévement"/>
+
+    </group>
+
+</menu>

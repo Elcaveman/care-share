@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/val_resultat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:scrollbarSize="8dp"
+        app:srcCompat="@drawable/ic_search" />
+
+    <TextView
+        android:id="@+id/val_resultat_text"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/val_resultat"
+        android:ems="10"
+        android:text="Valeur du résultat :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/val_resultat_text_2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_toRightOf="@+id/val_resultat_text"
+        android:textColor="#4A70B5"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/val_examen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/val_resultat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="12dp"
+        android:scrollbarSize="8dp"
+        app:srcCompat="@drawable/ic_examen" />
+
+    <TextView
+        android:id="@+id/val_examen_text"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/val_resultat_text"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/val_examen"
+        android:ems="10"
+        android:text="Examen :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/val_examen_text_2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/val_resultat_text_2"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="13dp"
+        android:layout_toRightOf="@+id/val_examen_text"
+        android:textColor="#4A70B5"
+        android:textSize="18sp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/val_examen"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="100dp"></com.github.mikephil.charting.charts.LineChart>
+
+
+</RelativeLayout>

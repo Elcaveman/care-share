@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "525490415388",
+    "firebase_url": "https://medicalapp-bebbf.firebaseio.com",
+    "project_id": "medicalapp-bebbf",
+    "storage_bucket": "medicalapp-bebbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525490415388:android:ffe779a9ebdb4b088a7cd9",
+        "android_client_info": {
+          "package_name": "com.example.medicalappv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525490415388-4n0sme1lui8i6onb25i7nret8irdvtuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBADw5d744XtAvC1XT2b-NdjAc1er7nLy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525490415388-4n0sme1lui8i6onb25i7nret8irdvtuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
